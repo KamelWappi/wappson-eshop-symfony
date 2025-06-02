@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil - Wappson E-shop{% endblock %}
+
+{% block body %}
+<section class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Bienvenue sur Wappson E-shop</h1>
+        <p class="lead mt-3">Votre boutique en ligne de confiance pour des produits de qualité à prix abordables.</p>
+        <a href="{{ path('app_product') }}" class="btn btn-light btn-lg mt-4">Découvrir nos produits</a>
+    </div>
+</section>
+
+<section class="container py-5 text-center">
+    <h2 class="mb-4">Pourquoi choisir Wappson E-shop ?</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <i class="bi bi-truck fs-1 text-primary"></i>
+            <h5 class="mt-3">Livraison rapide</h5>
+            <p>Expédition sous 48h partout en France.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-shield-check fs-1 text-primary"></i>
+            <h5 class="mt-3">Paiement sécurisé</h5>
+            <p>Toutes vos transactions sont protégées.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-star fs-1 text-primary"></i>
+            <h5 class="mt-3">Satisfaction garantie</h5>
+            <p>Des produits sélectionnés avec soin.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter un produit{% endblock %}
+
+{% block body %}
+<div class="container py-4">
+    <h2 class="mb-4">Ajouter un nouveau produit</h2>
+
+    {{ include('admin_gestion/_form.html.twig') }}
+</div>
+{% endblock %}
