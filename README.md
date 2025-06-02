@@ -13,14 +13,14 @@ Projet Symfony e-commerce. Il s'agit d'une boutique en ligne basique avec gestio
 -  Page d'accueil personnalisée
 -  Design responsive avec Bootstrap
 
-## 📦 Technologies utilisées
+##  Technologies utilisées
 
 - PHP 8 / Symfony 7
 - Twig / Bootstrap 5
 - Doctrine ORM / MySQL
 - Git / GitHub
 
-## 🔧 Lancer le projet en local
+##  Lancer le projet en local
 
 ```bash
 git clone https://github.com/KamelWappi/wappson-eshop.git
