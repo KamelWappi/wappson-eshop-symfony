@@ -28,3 +28,8 @@ cd wappson-eshop
 composer install
 symfony server:start
 
+## Évolution possible vers la Data :
+- Analyse du panier moyen
+- Statistiques de produits les plus ajoutés
+- Recommandation de produits
+- Prévision des ventes simples
