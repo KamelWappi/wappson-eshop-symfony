@@ -20,6 +20,12 @@ Projet Symfony e-commerce. Il s'agit d'une boutique en ligne basique avec gestio
 - Doctrine ORM / MySQL
 - Git / GitHub
 
+## Évolution possible vers la Data :
+- Analyse du panier moyen
+- Statistiques de produits les plus ajoutés
+- Recommandation de produits
+- Prévision des ventes simples
+
 ##  Lancer le projet en local
 
 ```bash
@@ -27,9 +33,3 @@ git clone https://github.com/KamelWappi/wappson-eshop.git
 cd wappson-eshop
 composer install
 symfony server:start
-
-## Évolution possible vers la Data :
-- Analyse du panier moyen
-- Statistiques de produits les plus ajoutés
-- Recommandation de produits
-- Prévision des ventes simples
